@@ -207,7 +207,7 @@ def main():
     input_data = add_sidebar()
 
 
-    with st.container():
+    with st.beta_container():
         st.title("Breast Cancer Predictor")
         st.write('This app can assist medical professionals in making a diagnosis, but should not be used as a substitute for a professional diagnosis')
 
