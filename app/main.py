@@ -209,7 +209,7 @@ def main():
 
     with st.container():
         st.title("Breast Cancer Predictor")
-        st.write('This is the description of the app and it looks great just a place holder by the way')
+        st.write('This app can assist medical professionals in making a diagnosis, but should not be used as a substitute for a professional diagnosis')
 
     col1, col2 = st.columns([4,1])
 
