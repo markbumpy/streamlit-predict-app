@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+.st-emotion-cache-j5r0tf {
+    font-family: 'Poppins', sans-serif; 
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: black ;
+}
+
+
+.diagnosis {
+    color: white;
+    padding: 0.2em 0.5rem;
+    border-radius: 0.5em;
+}
+
+.diagnosis.benign {
+    background-color: green;
+}
+
+.diagnosis.malicious {
+    background-color: red;
+}
+
+
+
+
+
+
+html, body, [class*="css"] {
+    
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
