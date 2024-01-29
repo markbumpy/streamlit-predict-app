@@ -19,7 +19,7 @@ def get_clean_data():
 
 
 def add_sidebar():
-    st.sidebar.header("Cell Neucli Details")
+    st.sidebar.header("Cell Nuclei Details")
     data = get_clean_data()
 
     slider_label = [
@@ -171,7 +171,7 @@ def add_predictions(input_data):
 
     prediction = model.predict(input_array_scaled)
 
-    st.subheader("Cell cluster Predicion")
+    st.subheader("Cell cluster Prediction")
     st.write("The cell cluster is: ")
 
     if prediction[0] == 0:
